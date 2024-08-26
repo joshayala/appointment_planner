@@ -50,7 +50,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
 
   return (
     <div>
-      <section>
+      <section >
         <h2>Add Contact {isDuplicate ? " - Name Already Exists" : ""}</h2> 
           <ContactForm 
             name={name}
@@ -64,7 +64,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
           />
       </section>
       <hr />
-      <section>
+      <section className="conlist">
         <h2>Contacts</h2>
           <TileList 
             dataArray={contacts}

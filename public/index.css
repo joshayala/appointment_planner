@@ -1,21 +1,41 @@
+html {
+  height: auto;
+}
+
 #root {
-  margin: 30px;
+
+  margin-bottom: 75px;
   font-family: "Open Sans", sans-serif;
+  max-height: 100%;
+  padding: 0 45px;
 }
 
-body{
+body {
+  position: relative;
   background-color: #faebd7;
-  
+  overflow: scroll;
 }
 
-.footer{
-  width: 50%;
-  margin: auto;
+.conlist {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.aplist {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.footer {
+  position: fixed;
+  width: 100%; 
+  margin: 0;
   bottom: 0;
   justify-content: center;
-  position: fixed;
   left: 0;
   right: 0;
+  padding: 1px 0; 
+  background-color: #f5d6b3; 
 }
 
 .footer p {
@@ -67,9 +87,6 @@ h2 {
   color: #000000;
   margin: 0;
   margin-bottom: 18px;
-}
-
-section {
 }
 
 hr {
@@ -128,5 +145,4 @@ select {
   background-color: #f5d6b3;
   border-radius: 20px;
   padding: 10px;
-
 }

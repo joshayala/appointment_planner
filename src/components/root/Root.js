@@ -1,5 +1,5 @@
 import {  Outlet, NavLink } from "react-router-dom";
-import  Footer  from "../footer/Footer";
+
 
 export const ROUTES = {
     CONTACTS: "/contacts",
@@ -19,7 +19,6 @@ function Root() {
                 </NavLink>
             </nav>
             <Outlet/>
-            <Footer/>
       </>
     );
 

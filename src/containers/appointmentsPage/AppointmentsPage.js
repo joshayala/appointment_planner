@@ -27,7 +27,7 @@ export const AppointmentsPage = ({ appointments, addAppointment, contacts }) => 
 
   return (
     <div>
-      <section>
+      <section >
         <h2>Add Appointment</h2>
         <AppointmentForm 
           contacts={contacts}
@@ -43,7 +43,7 @@ export const AppointmentsPage = ({ appointments, addAppointment, contacts }) => 
           />
       </section>
       <hr />
-      <section>
+      <section className="aplist">
         <h2>Appointments</h2>
         <TileList dataArray={appointments}/>
       </section>
